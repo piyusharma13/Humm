@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BE9F48D27F14BC400ECF56F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9F48C27F14BC400ECF56F /* AppDelegate.swift */; };
+		4BE9F48F27F14BC400ECF56F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9F48E27F14BC400ECF56F /* SceneDelegate.swift */; };
+		4BE9F49127F14BC400ECF56F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9F49027F14BC400ECF56F /* ViewController.swift */; };
+		4BE9F49427F14BC400ECF56F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE9F49227F14BC400ECF56F /* Main.storyboard */; };
+		4BE9F49727F14BC400ECF56F /* Humm_AI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9F49527F14BC400ECF56F /* Humm_AI.xcdatamodeld */; };
+		4BE9F49927F14BC600ECF56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE9F49827F14BC600ECF56F /* Assets.xcassets */; };
+		4BE9F49C27F14BC600ECF56F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE9F49A27F14BC600ECF56F /* LaunchScreen.storyboard */; };
+		4BE9F4A727F14BC600ECF56F /* Humm_AITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9F4A627F14BC600ECF56F /* Humm_AITests.swift */; };
+		4BE9F4B127F14BC600ECF56F /* Humm_AIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9F4B027F14BC600ECF56F /* Humm_AIUITests.swift */; };
+		4BE9F4B327F14BC600ECF56F /* Humm_AIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9F4B227F14BC600ECF56F /* Humm_AIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BE9F4A327F14BC600ECF56F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BE9F48127F14BC400ECF56F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BE9F48827F14BC400ECF56F;
+			remoteInfo = "Humm-AI";
+		};
+		4BE9F4AD27F14BC600ECF56F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BE9F48127F14BC400ECF56F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BE9F48827F14BC400ECF56F;
+			remoteInfo = "Humm-AI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BE9F48927F14BC400ECF56F /* Humm-AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Humm-AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE9F48C27F14BC400ECF56F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BE9F48E27F14BC400ECF56F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4BE9F49027F14BC400ECF56F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BE9F49327F14BC400ECF56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BE9F49627F14BC400ECF56F /* Humm_AI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Humm_AI.xcdatamodel; sourceTree = "<group>"; };
+		4BE9F49827F14BC600ECF56F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BE9F49B27F14BC600ECF56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BE9F49D27F14BC600ECF56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BE9F4A227F14BC600ECF56F /* Humm-AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Humm-AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE9F4A627F14BC600ECF56F /* Humm_AITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Humm_AITests.swift; sourceTree = "<group>"; };
+		4BE9F4AC27F14BC600ECF56F /* Humm-AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Humm-AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE9F4B027F14BC600ECF56F /* Humm_AIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Humm_AIUITests.swift; sourceTree = "<group>"; };
+		4BE9F4B227F14BC600ECF56F /* Humm_AIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Humm_AIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BE9F48627F14BC400ECF56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE9F49F27F14BC600ECF56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE9F4A927F14BC600ECF56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BE9F48027F14BC400ECF56F = {
+			isa = PBXGroup;
+			children = (
+				4BE9F48B27F14BC400ECF56F /* Humm-AI */,
+				4BE9F4A527F14BC600ECF56F /* Humm-AITests */,
+				4BE9F4AF27F14BC600ECF56F /* Humm-AIUITests */,
+				4BE9F48A27F14BC400ECF56F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BE9F48A27F14BC400ECF56F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BE9F48927F14BC400ECF56F /* Humm-AI.app */,
+				4BE9F4A227F14BC600ECF56F /* Humm-AITests.xctest */,
+				4BE9F4AC27F14BC600ECF56F /* Humm-AIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BE9F48B27F14BC400ECF56F /* Humm-AI */ = {
+			isa = PBXGroup;
+			children = (
+				4BE9F48C27F14BC400ECF56F /* AppDelegate.swift */,
+				4BE9F48E27F14BC400ECF56F /* SceneDelegate.swift */,
+				4BE9F49027F14BC400ECF56F /* ViewController.swift */,
+				4BE9F49227F14BC400ECF56F /* Main.storyboard */,
+				4BE9F49827F14BC600ECF56F /* Assets.xcassets */,
+				4BE9F49A27F14BC600ECF56F /* LaunchScreen.storyboard */,
+				4BE9F49D27F14BC600ECF56F /* Info.plist */,
+				4BE9F49527F14BC400ECF56F /* Humm_AI.xcdatamodeld */,
+			);
+			path = "Humm-AI";
+			sourceTree = "<group>";
+		};
+		4BE9F4A527F14BC600ECF56F /* Humm-AITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BE9F4A627F14BC600ECF56F /* Humm_AITests.swift */,
+			);
+			path = "Humm-AITests";
+			sourceTree = "<group>";
+		};
+		4BE9F4AF27F14BC600ECF56F /* Humm-AIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BE9F4B027F14BC600ECF56F /* Humm_AIUITests.swift */,
+				4BE9F4B227F14BC600ECF56F /* Humm_AIUITestsLaunchTests.swift */,
+			);
+			path = "Humm-AIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BE9F48827F14BC400ECF56F /* Humm-AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE9F4B627F14BC600ECF56F /* Build configuration list for PBXNativeTarget "Humm-AI" */;
+			buildPhases = (
+				4BE9F48527F14BC400ECF56F /* Sources */,
+				4BE9F48627F14BC400ECF56F /* Frameworks */,
+				4BE9F48727F14BC400ECF56F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Humm-AI";
+			productName = "Humm-AI";
+			productReference = 4BE9F48927F14BC400ECF56F /* Humm-AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BE9F4A127F14BC600ECF56F /* Humm-AITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE9F4B927F14BC600ECF56F /* Build configuration list for PBXNativeTarget "Humm-AITests" */;
+			buildPhases = (
+				4BE9F49E27F14BC600ECF56F /* Sources */,
+				4BE9F49F27F14BC600ECF56F /* Frameworks */,
+				4BE9F4A027F14BC600ECF56F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BE9F4A427F14BC600ECF56F /* PBXTargetDependency */,
+			);
+			name = "Humm-AITests";
+			productName = "Humm-AITests";
+			productReference = 4BE9F4A227F14BC600ECF56F /* Humm-AITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BE9F4AB27F14BC600ECF56F /* Humm-AIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE9F4BC27F14BC600ECF56F /* Build configuration list for PBXNativeTarget "Humm-AIUITests" */;
+			buildPhases = (
+				4BE9F4A827F14BC600ECF56F /* Sources */,
+				4BE9F4A927F14BC600ECF56F /* Frameworks */,
+				4BE9F4AA27F14BC600ECF56F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BE9F4AE27F14BC600ECF56F /* PBXTargetDependency */,
+			);
+			name = "Humm-AIUITests";
+			productName = "Humm-AIUITests";
+			productReference = 4BE9F4AC27F14BC600ECF56F /* Humm-AIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BE9F48127F14BC400ECF56F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					4BE9F48827F14BC400ECF56F = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					4BE9F4A127F14BC600ECF56F = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 4BE9F48827F14BC400ECF56F;
+					};
+					4BE9F4AB27F14BC600ECF56F = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 4BE9F48827F14BC400ECF56F;
+					};
+				};
+			};
+			buildConfigurationList = 4BE9F48427F14BC400ECF56F /* Build configuration list for PBXProject "Humm-AI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BE9F48027F14BC400ECF56F;
+			productRefGroup = 4BE9F48A27F14BC400ECF56F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BE9F48827F14BC400ECF56F /* Humm-AI */,
+				4BE9F4A127F14BC600ECF56F /* Humm-AITests */,
+				4BE9F4AB27F14BC600ECF56F /* Humm-AIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BE9F48727F14BC400ECF56F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE9F49C27F14BC600ECF56F /* LaunchScreen.storyboard in Resources */,
+				4BE9F49927F14BC600ECF56F /* Assets.xcassets in Resources */,
+				4BE9F49427F14BC400ECF56F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE9F4A027F14BC600ECF56F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE9F4AA27F14BC600ECF56F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BE9F48527F14BC400ECF56F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE9F49727F14BC400ECF56F /* Humm_AI.xcdatamodeld in Sources */,
+				4BE9F49127F14BC400ECF56F /* ViewController.swift in Sources */,
+				4BE9F48D27F14BC400ECF56F /* AppDelegate.swift in Sources */,
+				4BE9F48F27F14BC400ECF56F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE9F49E27F14BC600ECF56F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE9F4A727F14BC600ECF56F /* Humm_AITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE9F4A827F14BC600ECF56F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE9F4B127F14BC600ECF56F /* Humm_AIUITests.swift in Sources */,
+				4BE9F4B327F14BC600ECF56F /* Humm_AIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BE9F4A427F14BC600ECF56F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BE9F48827F14BC400ECF56F /* Humm-AI */;
+			targetProxy = 4BE9F4A327F14BC600ECF56F /* PBXContainerItemProxy */;
+		};
+		4BE9F4AE27F14BC600ECF56F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BE9F48827F14BC400ECF56F /* Humm-AI */;
+			targetProxy = 4BE9F4AD27F14BC600ECF56F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BE9F49227F14BC400ECF56F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BE9F49327F14BC400ECF56F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BE9F49A27F14BC600ECF56F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BE9F49B27F14BC600ECF56F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BE9F4B427F14BC600ECF56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BE9F4B527F14BC600ECF56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE9F4B727F14BC600ECF56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YE6Y8999R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Humm-AI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ai.practice.Humm-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE9F4B827F14BC600ECF56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YE6Y8999R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Humm-AI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ai.practice.Humm-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BE9F4BA27F14BC600ECF56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YE6Y8999R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ai.practice.Humm-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Humm-AI.app/Humm-AI";
+			};
+			name = Debug;
+		};
+		4BE9F4BB27F14BC600ECF56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YE6Y8999R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ai.practice.Humm-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Humm-AI.app/Humm-AI";
+			};
+			name = Release;
+		};
+		4BE9F4BD27F14BC600ECF56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YE6Y8999R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ai.practice.Humm-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Humm-AI";
+			};
+			name = Debug;
+		};
+		4BE9F4BE27F14BC600ECF56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YE6Y8999R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ai.practice.Humm-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Humm-AI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BE9F48427F14BC400ECF56F /* Build configuration list for PBXProject "Humm-AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE9F4B427F14BC600ECF56F /* Debug */,
+				4BE9F4B527F14BC600ECF56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE9F4B627F14BC600ECF56F /* Build configuration list for PBXNativeTarget "Humm-AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE9F4B727F14BC600ECF56F /* Debug */,
+				4BE9F4B827F14BC600ECF56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE9F4B927F14BC600ECF56F /* Build configuration list for PBXNativeTarget "Humm-AITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE9F4BA27F14BC600ECF56F /* Debug */,
+				4BE9F4BB27F14BC600ECF56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE9F4BC27F14BC600ECF56F /* Build configuration list for PBXNativeTarget "Humm-AIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE9F4BD27F14BC600ECF56F /* Debug */,
+				4BE9F4BE27F14BC600ECF56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BE9F49527F14BC400ECF56F /* Humm_AI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BE9F49627F14BC400ECF56F /* Humm_AI.xcdatamodel */,
+			);
+			currentVersion = 4BE9F49627F14BC400ECF56F /* Humm_AI.xcdatamodel */;
+			path = Humm_AI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BE9F48127F14BC400ECF56F /* Project object */;
+}
